@@ -66,7 +66,7 @@ def find_min(weather_data):
     Args:
         weather_data: A list of numbers.
     Returns:
-        The minium value and it's position in the list. (In case of multiple matches, return the *last* example in the list.)
+        The minium value and it's position in the list. (In case of multiple matches, return the index of the *last* example in the list.)
     """
     pass
 
@@ -77,7 +77,7 @@ def find_max(weather_data):
     Args:
         weather_data: A list of numbers.
     Returns:
-        The maximum value and it's position in the list. (In case of multiple matches, return the *last* example in the list.)
+        The maximum value and it's position in the list. (In case of multiple matches, return the index of the *last* example in the list.)
     """
     pass
 
