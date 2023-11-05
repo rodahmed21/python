@@ -26,7 +26,7 @@ class FindMaxTests(unittest.TestCase):
         result = weather.find_max(temperatures)
         self.assertEqual(result, expected_result)
 
-    def test_find_min_strings(self):
+    def test_find_max_strings(self):
         temperatures = ["49", "57", "56", "55", "53", "49"]
         expected_result = (57.0, 1)
         result = weather.find_max(temperatures)
