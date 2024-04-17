@@ -1,39 +1,39 @@
 import csv
 from datetime import datetime
 
-DEGREE_SYBMOL = u"\N{DEGREE SIGN}C"
+DEGREE_SYMBOL = u"\N{DEGREE SIGN}C"
 
 
 def format_temperature(temp):
     """Takes a temperature and returns it in string format with the degrees
-        and celcius symbols.
+        and Celcius symbols.
 
     Args:
         temp: A string representing a temperature.
     Returns:
-        A string contain the temperature and "degrees celcius."
+        A string contain the temperature and "degrees Celcius."
     """
-    return f"{temp}{DEGREE_SYBMOL}"
+    return f"{temp}{DEGREE_SYMBOL}"
 
 
 def convert_date(iso_string):
-    """Converts and ISO formatted date into a human readable format.
+    """Converts and ISO formatted date into a human-readable format.
 
     Args:
-        iso_string: An ISO date string..
+        iso_string: An ISO date string.
     Returns:
         A date formatted like: Weekday Date Month Year e.g. Tuesday 06 July 2021
     """
     pass
 
 
-def convert_f_to_c(temp_in_farenheit):
-    """Converts an temperature from farenheit to celcius.
+def convert_f_to_c(temp_in_fahrenheit):
+    """Converts a temperature from Fahrenheit to Celcius.
 
     Args:
-        temp_in_farenheit: float representing a temperature.
+        temp_in_fahrenheit: float representing a temperature.
     Returns:
-        A float representing a temperature in degrees celcius, rounded to 1dp.
+        A float representing a temperature in degrees Celcius, rounded to 1 decimal place.
     """
     pass
 
@@ -66,7 +66,7 @@ def find_min(weather_data):
     Args:
         weather_data: A list of numbers.
     Returns:
-        The minium value and it's position in the list. (In case of multiple matches, return the index of the *last* example in the list.)
+        The minimum value and it's position in the list. (In case of multiple matches, return the index of the *last* example in the list.)
     """
     pass
 
